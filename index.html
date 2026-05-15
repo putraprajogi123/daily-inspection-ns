@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="theme-color" content="#16a34a"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="apple-mobile-web-app-title" content="Daily Inspection"/>
+<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjgwIiBmaWxsPSIjMTZhMzRhIi8+CiAgCiAgPCEtLSBPdXRlciBnZWFyIHJpbmcgLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjU2LDIwMCkiIGZpbGw9IndoaXRlIj4KICAgIDwhLS0gR2VhciB0ZWV0aCBhbmQgYm9keSAtLT4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSI5NSIgZmlsbD0id2hpdGUiLz4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSI1OCIgZmlsbD0iIzE2YTM0YSIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9IjMyIiBmaWxsPSJ3aGl0ZSIvPgogICAgPCEtLSBHZWFyIHRlZXRoIC0tPgogICAgPHJlY3QgeD0iLTE0IiB5PSItMTA4IiB3aWR0aD0iMjgiIGhlaWdodD0iMzAiIHJ4PSI1Ii8+CiAgICA8cmVjdCB4PSItMTQiIHk9Ijc4IiB3aWR0aD0iMjgiIGhlaWdodD0iMzAiIHJ4PSI1Ii8+CiAgICA8cmVjdCB4PSItMTA4IiB5PSItMTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyOCIgcng9IjUiLz4KICAgIDxyZWN0IHg9Ijc4IiB5PSItMTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyOCIgcng9IjUiLz4KICAgIDwhLS0gRGlhZ29uYWwgdGVldGggLS0+CiAgICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSg0NSkiPgogICAgICA8cmVjdCB4PSItMTQiIHk9Ii0xMDgiIHdpZHRoPSIyOCIgaGVpZ2h0PSIzMCIgcng9IjUiLz4KICAgICAgPHJlY3QgeD0iLTE0IiB5PSI3OCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjMwIiByeD0iNSIvPgogICAgICA8cmVjdCB4PSItMTA4IiB5PSItMTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyOCIgcng9IjUiLz4KICAgICAgPHJlY3QgeD0iNzgiIHk9Ii0xNCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjI4IiByeD0iNSIvPgogICAgPC9nPgogIDwvZz4KICAKICA8IS0tIFdyZW5jaCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMzAsMzMwKSByb3RhdGUoLTQwKSIgZmlsbD0id2hpdGUiPgogICAgPCEtLSBXcmVuY2ggaGFuZGxlIC0tPgogICAgPHJlY3QgeD0iLTE2IiB5PSItMjAiIHdpZHRoPSIzMiIgaGVpZ2h0PSIxMzAiIHJ4PSIxMCIvPgogICAgPCEtLSBXcmVuY2ggaGVhZCB0b3AgLS0+CiAgICA8cmVjdCB4PSItMzAiIHk9Ii01NSIgd2lkdGg9IjYwIiBoZWlnaHQ9IjQyIiByeD0iOCIvPgogICAgPHJlY3QgeD0iLTMwIiB5PSItNTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI0MiIgcng9IjYiIGZpbGw9IiMxNmEzNGEiLz4KICAgIDxyZWN0IHg9IjEwIiB5PSItNTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI0MiIgcng9IjYiIGZpbGw9IiMxNmEzNGEiLz4KICAgIDwhLS0gV3JlbmNoIGhlYWQgYm90dG9tIGNpcmNsZSAtLT4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIxMTgiIHI9IjI2IiBmaWxsPSJ3aGl0ZSIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjExOCIgcj0iMTMiIGZpbGw9IiMxNmEzNGEiLz4KICA8L2c+Cjwvc3ZnPg=="/>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjgwIiBmaWxsPSIjMTZhMzRhIi8+CiAgCiAgPCEtLSBPdXRlciBnZWFyIHJpbmcgLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjU2LDIwMCkiIGZpbGw9IndoaXRlIj4KICAgIDwhLS0gR2VhciB0ZWV0aCBhbmQgYm9keSAtLT4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSI5NSIgZmlsbD0id2hpdGUiLz4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSI1OCIgZmlsbD0iIzE2YTM0YSIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9IjMyIiBmaWxsPSJ3aGl0ZSIvPgogICAgPCEtLSBHZWFyIHRlZXRoIC0tPgogICAgPHJlY3QgeD0iLTE0IiB5PSItMTA4IiB3aWR0aD0iMjgiIGhlaWdodD0iMzAiIHJ4PSI1Ii8+CiAgICA8cmVjdCB4PSItMTQiIHk9Ijc4IiB3aWR0aD0iMjgiIGhlaWdodD0iMzAiIHJ4PSI1Ii8+CiAgICA8cmVjdCB4PSItMTA4IiB5PSItMTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyOCIgcng9IjUiLz4KICAgIDxyZWN0IHg9Ijc4IiB5PSItMTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyOCIgcng9IjUiLz4KICAgIDwhLS0gRGlhZ29uYWwgdGVldGggLS0+CiAgICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSg0NSkiPgogICAgICA8cmVjdCB4PSItMTQiIHk9Ii0xMDgiIHdpZHRoPSIyOCIgaGVpZ2h0PSIzMCIgcng9IjUiLz4KICAgICAgPHJlY3QgeD0iLTE0IiB5PSI3OCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjMwIiByeD0iNSIvPgogICAgICA8cmVjdCB4PSItMTA4IiB5PSItMTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyOCIgcng9IjUiLz4KICAgICAgPHJlY3QgeD0iNzgiIHk9Ii0xNCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjI4IiByeD0iNSIvPgogICAgPC9nPgogIDwvZz4KICAKICA8IS0tIFdyZW5jaCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMzAsMzMwKSByb3RhdGUoLTQwKSIgZmlsbD0id2hpdGUiPgogICAgPCEtLSBXcmVuY2ggaGFuZGxlIC0tPgogICAgPHJlY3QgeD0iLTE2IiB5PSItMjAiIHdpZHRoPSIzMiIgaGVpZ2h0PSIxMzAiIHJ4PSIxMCIvPgogICAgPCEtLSBXcmVuY2ggaGVhZCB0b3AgLS0+CiAgICA8cmVjdCB4PSItMzAiIHk9Ii01NSIgd2lkdGg9IjYwIiBoZWlnaHQ9IjQyIiByeD0iOCIvPgogICAgPHJlY3QgeD0iLTMwIiB5PSItNTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI0MiIgcng9IjYiIGZpbGw9IiMxNmEzNGEiLz4KICAgIDxyZWN0IHg9IjEwIiB5PSItNTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI0MiIgcng9IjYiIGZpbGw9IiMxNmEzNGEiLz4KICAgIDwhLS0gV3JlbmNoIGhlYWQgYm90dG9tIGNpcmNsZSAtLT4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIxMTgiIHI9IjI2IiBmaWxsPSJ3aGl0ZSIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjExOCIgcj0iMTMiIGZpbGw9IiMxNmEzNGEiLz4KICA8L2c+Cjwvc3ZnPg=="/>
+<title>Daily Inspection</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#f0f4f8;color:#1e293b;max-width:480px;margin:0 auto;min-height:100vh;}
+input,select,textarea{font-family:inherit;}
+.inp{background:#fff;border:1.5px solid #e2e8f0;color:#1e293b;padding:12px;font-size:15px;border-radius:8px;width:100%;outline:none;}
+.inp:focus{border-color:#16a34a;}
+.inp:disabled{background:#f1f5f9;color:#94a3b8;}
+.btn-g{background:#16a34a;color:#fff;border:none;padding:15px;font-family:inherit;font-weight:700;font-size:15px;border-radius:10px;width:100%;cursor:pointer;}
+.btn-g:disabled{background:#94a3b8;cursor:not-allowed;}
+.btn-o{background:transparent;color:#64748b;border:1.5px solid #cbd5e1;padding:13px;font-family:inherit;font-weight:600;font-size:14px;border-radius:10px;width:100%;cursor:pointer;}
+.tab-btn{flex:1;padding:11px 4px;border:none;cursor:pointer;font-family:inherit;font-weight:600;font-size:12px;background:transparent;color:#94a3b8;border-bottom:2px solid transparent;}
+.tab-btn.on{color:#16a34a;border-bottom-color:#16a34a;}
+.card{background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,0.07);}
+.b-baik{background:#dcfce7;color:#166534;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:700;}
+.b-rusak{background:#fee2e2;color:#991b1b;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:700;}
+.cb{flex:1;padding:12px 4px;border:1.5px solid #e2e8f0;background:#f8fafc;cursor:pointer;font-family:inherit;font-weight:600;font-size:14px;border-radius:8px;color:#64748b;}
+.cb-baik{background:#dcfce7;border-color:#16a34a;color:#166534;}
+.cb-rusak{background:#fee2e2;border-color:#dc2626;color:#991b1b;}
+.cb-cukup{background:#dbeafe;border-color:#2563eb;color:#1e40af;}
+.cb-kurang{background:#fef3c7;border-color:#d97706;color:#92400e;}
+.sh{font-size:11px;font-weight:800;color:#16a34a;letter-spacing:0.06em;text-transform:uppercase;padding:10px 14px 6px;background:#f0fdf4;}
+.ir{padding:12px 14px;border-bottom:1px solid #f1f5f9;}
+.ir:last-child{border-bottom:none;}
+.lbl{font-size:12px;font-weight:600;color:#475569;margin-bottom:5px;}
+.pb{height:6px;background:#e2e8f0;border-radius:3px;overflow:hidden;}
+.pf{height:100%;background:#16a34a;border-radius:3px;transition:width 0.3s;}
+.vb{padding:10px 6px;border:1.5px solid #e2e8f0;background:#fff;border-radius:10px;cursor:pointer;text-align:center;font-family:inherit;}
+.vb.sel{border-color:#16a34a;background:#f0fdf4;}
+.spinner{width:28px;height:28px;border:3px solid #e2e8f0;border-top-color:#16a34a;border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto;}
+@keyframes spin{to{transform:rotate(360deg);}}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1e293b;color:#fff;padding:12px 20px;border-radius:10px;font-size:13px;font-weight:600;z-index:9999;opacity:0;transition:opacity 0.3s;white-space:nowrap;max-width:90vw;text-align:center;}
+.toast.show{opacity:1;}
+</style>
+</head>
+<body>
+<div class="toast" id="toast"></div>
+<div id="app"></div>
+<script>
+// PWA Manifest with icon
+const _manifest = {
+  name: "Daily Inspection",
+  short_name: "Daily Inspection",
+  start_url: ".",
+  display: "standalone",
+  background_color: "#f0f4f8",
+  theme_color: "#16a34a",
+  icons: [
+    { src: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjgwIiBmaWxsPSIjMTZhMzRhIi8+CiAgCiAgPCEtLSBPdXRlciBnZWFyIHJpbmcgLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjU2LDIwMCkiIGZpbGw9IndoaXRlIj4KICAgIDwhLS0gR2VhciB0ZWV0aCBhbmQgYm9keSAtLT4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSI5NSIgZmlsbD0id2hpdGUiLz4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSI1OCIgZmlsbD0iIzE2YTM0YSIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9IjMyIiBmaWxsPSJ3aGl0ZSIvPgogICAgPCEtLSBHZWFyIHRlZXRoIC0tPgogICAgPHJlY3QgeD0iLTE0IiB5PSItMTA4IiB3aWR0aD0iMjgiIGhlaWdodD0iMzAiIHJ4PSI1Ii8+CiAgICA8cmVjdCB4PSItMTQiIHk9Ijc4IiB3aWR0aD0iMjgiIGhlaWdodD0iMzAiIHJ4PSI1Ii8+CiAgICA8cmVjdCB4PSItMTA4IiB5PSItMTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyOCIgcng9IjUiLz4KICAgIDxyZWN0IHg9Ijc4IiB5PSItMTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyOCIgcng9IjUiLz4KICAgIDwhLS0gRGlhZ29uYWwgdGVldGggLS0+CiAgICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSg0NSkiPgogICAgICA8cmVjdCB4PSItMTQiIHk9Ii0xMDgiIHdpZHRoPSIyOCIgaGVpZ2h0PSIzMCIgcng9IjUiLz4KICAgICAgPHJlY3QgeD0iLTE0IiB5PSI3OCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjMwIiByeD0iNSIvPgogICAgICA8cmVjdCB4PSItMTA4IiB5PSItMTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyOCIgcng9IjUiLz4KICAgICAgPHJlY3QgeD0iNzgiIHk9Ii0xNCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjI4IiByeD0iNSIvPgogICAgPC9nPgogIDwvZz4KICAKICA8IS0tIFdyZW5jaCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMzAsMzMwKSByb3RhdGUoLTQwKSIgZmlsbD0id2hpdGUiPgogICAgPCEtLSBXcmVuY2ggaGFuZGxlIC0tPgogICAgPHJlY3QgeD0iLTE2IiB5PSItMjAiIHdpZHRoPSIzMiIgaGVpZ2h0PSIxMzAiIHJ4PSIxMCIvPgogICAgPCEtLSBXcmVuY2ggaGVhZCB0b3AgLS0+CiAgICA8cmVjdCB4PSItMzAiIHk9Ii01NSIgd2lkdGg9IjYwIiBoZWlnaHQ9IjQyIiByeD0iOCIvPgogICAgPHJlY3QgeD0iLTMwIiB5PSItNTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI0MiIgcng9IjYiIGZpbGw9IiMxNmEzNGEiLz4KICAgIDxyZWN0IHg9IjEwIiB5PSItNTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI0MiIgcng9IjYiIGZpbGw9IiMxNmEzNGEiLz4KICAgIDwhLS0gV3JlbmNoIGhlYWQgYm90dG9tIGNpcmNsZSAtLT4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIxMTgiIHI9IjI2IiBmaWxsPSJ3aGl0ZSIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjExOCIgcj0iMTMiIGZpbGw9IiMxNmEzNGEiLz4KICA8L2c+Cjwvc3ZnPg==", sizes: "192x192", type: "image/svg+xml" },
+    { src: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjgwIiBmaWxsPSIjMTZhMzRhIi8+CiAgCiAgPCEtLSBPdXRlciBnZWFyIHJpbmcgLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjU2LDIwMCkiIGZpbGw9IndoaXRlIj4KICAgIDwhLS0gR2VhciB0ZWV0aCBhbmQgYm9keSAtLT4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSI5NSIgZmlsbD0id2hpdGUiLz4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSI1OCIgZmlsbD0iIzE2YTM0YSIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9IjMyIiBmaWxsPSJ3aGl0ZSIvPgogICAgPCEtLSBHZWFyIHRlZXRoIC0tPgogICAgPHJlY3QgeD0iLTE0IiB5PSItMTA4IiB3aWR0aD0iMjgiIGhlaWdodD0iMzAiIHJ4PSI1Ii8+CiAgICA8cmVjdCB4PSItMTQiIHk9Ijc4IiB3aWR0aD0iMjgiIGhlaWdodD0iMzAiIHJ4PSI1Ii8+CiAgICA8cmVjdCB4PSItMTA4IiB5PSItMTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyOCIgcng9IjUiLz4KICAgIDxyZWN0IHg9Ijc4IiB5PSItMTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyOCIgcng9IjUiLz4KICAgIDwhLS0gRGlhZ29uYWwgdGVldGggLS0+CiAgICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSg0NSkiPgogICAgICA8cmVjdCB4PSItMTQiIHk9Ii0xMDgiIHdpZHRoPSIyOCIgaGVpZ2h0PSIzMCIgcng9IjUiLz4KICAgICAgPHJlY3QgeD0iLTE0IiB5PSI3OCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjMwIiByeD0iNSIvPgogICAgICA8cmVjdCB4PSItMTA4IiB5PSItMTQiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyOCIgcng9IjUiLz4KICAgICAgPHJlY3QgeD0iNzgiIHk9Ii0xNCIgd2lkdGg9IjMwIiBoZWlnaHQ9IjI4IiByeD0iNSIvPgogICAgPC9nPgogIDwvZz4KICAKICA8IS0tIFdyZW5jaCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMzAsMzMwKSByb3RhdGUoLTQwKSIgZmlsbD0id2hpdGUiPgogICAgPCEtLSBXcmVuY2ggaGFuZGxlIC0tPgogICAgPHJlY3QgeD0iLTE2IiB5PSItMjAiIHdpZHRoPSIzMiIgaGVpZ2h0PSIxMzAiIHJ4PSIxMCIvPgogICAgPCEtLSBXcmVuY2ggaGVhZCB0b3AgLS0+CiAgICA8cmVjdCB4PSItMzAiIHk9Ii01NSIgd2lkdGg9IjYwIiBoZWlnaHQ9IjQyIiByeD0iOCIvPgogICAgPHJlY3QgeD0iLTMwIiB5PSItNTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI0MiIgcng9IjYiIGZpbGw9IiMxNmEzNGEiLz4KICAgIDxyZWN0IHg9IjEwIiB5PSItNTUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI0MiIgcng9IjYiIGZpbGw9IiMxNmEzNGEiLz4KICAgIDwhLS0gV3JlbmNoIGhlYWQgYm90dG9tIGNpcmNsZSAtLT4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIxMTgiIHI9IjI2IiBmaWxsPSJ3aGl0ZSIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjExOCIgcj0iMTMiIGZpbGw9IiMxNmEzNGEiLz4KICA8L2c+Cjwvc3ZnPg==", sizes: "512x512", type: "image/svg+xml" }
+  ]
+};
+const _blob = new Blob([JSON.stringify(_manifest)], {type:"application/manifest+json"});
+const _murl = URL.createObjectURL(_blob);
+const _ml = document.createElement("link");
+_ml.rel = "manifest"; _ml.href = _murl;
+document.head.appendChild(_ml);
+</script>
+<script>
+const API_URL = "https://script.google.com/macros/s/AKfycbzqoe6fZJ6Q2U0nDB0OmILMO66BSq0fyi1sGhi_403BmvHSVPVXLkXbw2n6W2TvKoQHJQ/exec";
+
+// ── CHECKLIST DATA (Form WKS-03-02-F-02) ──
+const VT = {
+  DT:{label:"Dump Truck",icon:"&#128795;",sections:[
+    {title:"KONDISI FISIK",type:"BR",items:[
+      "Bagaimana kondisi fisik body Dump Truck? (retak, penyok, karat parah)",
+      "Apakah ada tanda-tanda keausan atau kerusakan pada komponen yang terlihat?"]},
+    {title:"SISTEM PENGGERAK",type:"BR",items:[
+      "Apakah roda depan dan belakang serta velg dalam kondisi baik? (retak, bengkok, korosi)",
+      "Apakah kondisi ban layak pakai? (kedalaman alur ban \u2265 3mm, tidak ada retak dinding samping, tidak ada kabel yang terlihat)",
+      "Apakah sistem transmisi / kopling berfungsi normal?",
+      "Apakah tidak ada mur/baut roda yang kendur atau hilang? (periksa secara visual & ketuk dengan palu)",
+      "Apakah kondisi tie rod, drag link, ball joint, dan king pin baik? (tidak longgar, tidak retak, tidak ada cotter pin yang hilang)"]},
+    {title:"SISTEM DUMP",type:"BR",items:[
+      "Apakah sistem dump (hidrolik bak) berfungsi normal?",
+      "Apakah ada tanda-tanda kerusakan pada komponen dump (engsel, rantai pengaman, hidrolik)?",
+      "LARANGAN: Tidak ada penumpang / pekerja di dalam bak dump saat unit bergerak (konfirmasi sebelum berangkat)"]},
+    {title:"KEBOCORAN PELUMAS",type:"BR",items:[
+      "Apakah ada kebocoran pelumas pada sistem hidrolik?",
+      "Apakah ada kebocoran pelumas dari mesin?",
+      "Apakah ada kebocoran pelumas dari gardan?",
+      "Apakah ada kebocoran pelumas dari transmisi?",
+      "Apakah ada kebocoran pelumas dari steering gear box?",
+      "Apakah ada kebocoran pelumas dari rem?"]},
+    {title:"SISTEM LISTRIK",type:"BR",items:[
+      "Apakah lampu depan kecil berfungsi normal?",
+      "Apakah lampu dekat berfungsi normal?",
+      "Apakah lampu jauh berfungsi normal?",
+      "Apakah lampu sen berfungsi normal?",
+      "Apakah lampu hazard berfungsi normal?"]},
+    {title:"SISTEM KESELAMATAN",type:"BR",items:[
+      "Apakah sabuk pengaman berfungsi dengan baik?",
+      "Apakah klakson berfungsi normal?",
+      "Apakah speedometer berfungsi normal?",
+      "Apakah semua sistem rem berfungsi? (Uji rem kaki: tahan pedal selama 10 detik \u2014 pedal tidak boleh merosot. Uji rem tangan: pada posisi netral/gigi 1 dengan rem tangan aktif, unit tidak boleh bergerak saat pedal rem dilepas.)",
+      "Apakah kondisi kaca spion (kanan dan kiri) baik?",
+      "Apakah wiper kaca depan bekerja?",
+      "Apakah penyemprot air kaca bekerja?",
+      "Apakah kondisi APAR masih layak pakai (segel utuh, jarum tekanan hijau, belum expired)?",
+      "Apakah isi kotak P3K lengkap dan tidak ada yang expired?",
+      "Apakah alarm mundur berfungsi dengan baik?",
+      "Apakah pengganjal roda (wheel chock) tersedia?",
+      "Apakah segitiga pengaman (2 pcs) tersedia?"]},
+    {title:"SISTEM PENDINGIN MESIN",type:"BR",items:[
+      "Periksa kondisi tali kipas (tidak retak, tidak kendur)!",
+      "Periksa kebocoran pada sistem pendingin mesin!"]},
+    {title:"SISTEM BAHAN BAKAR",type:"BR",items:[
+      "Periksa kebocoran pada sistem bahan bakar!"]},
+    {title:"PEMERIKSAAN CAIRAN DAN NIPPLE GREASE",type:"CK",items:[
+      "Periksa kapasitas oli mesin!",
+      "Periksa kapasitas air radiator!",
+      "Periksa kapasitas oli rem!",
+      "Periksa kapasitas oli steering!",
+      "Periksa jumlah dan kondisi nipple grease!",
+      "Periksa kapasitas oli dump!"]},
+  ]},
+  LV:{label:"Light Vehicle (Kendaraan Ringan)",icon:"&#128665;",sections:[
+    {title:"KONDISI FISIK",type:"BR",items:[
+      "Bagaimana kondisi fisik body Light Vehicle (Kendaraan Ringan)? (retak, penyok, karat parah)",
+      "Apakah ada tanda-tanda keausan atau kerusakan pada komponen yang terlihat?"]},
+    {title:"SISTEM PENGGERAK",type:"BR",items:[
+      "Apakah roda depan dan belakang serta velg dalam kondisi baik? (retak, bengkok, korosi)",
+      "Apakah kondisi ban layak pakai? (kedalaman alur ban \u2265 3mm, tidak ada retak dinding samping, tidak ada kabel yang terlihat)",
+      "Apakah sistem transmisi / kopling berfungsi normal?",
+      "Apakah tidak ada mur/baut roda yang kendur atau hilang? (periksa secara visual & ketuk dengan palu)",
+      "Apakah kondisi tie rod, drag link, ball joint, dan king pin baik? (tidak longgar, tidak retak, tidak ada cotter pin yang hilang)"]},
+    {title:"KEBOCORAN PELUMAS",type:"BR",items:[
+      "Apakah ada kebocoran pelumas dari mesin?",
+      "Apakah ada kebocoran pelumas dari gardan?",
+      "Apakah ada kebocoran pelumas dari transmisi?",
+      "Apakah ada kebocoran pelumas dari steering gear box?",
+      "Apakah ada kebocoran pelumas dari rem?"]},
+    {title:"SISTEM LISTRIK",type:"BR",items:[
+      "Apakah lampu depan kecil berfungsi normal?",
+      "Apakah lampu dekat berfungsi normal?",
+      "Apakah lampu jauh berfungsi normal?",
+      "Apakah lampu sen berfungsi normal?",
+      "Apakah lampu hazard berfungsi normal?",
+      "Apakah air conditioner (AC) dalam kondisi baik?"]},
+    {title:"SISTEM KESELAMATAN",type:"BR",items:[
+      "Apakah sabuk pengaman berfungsi dengan baik?",
+      "Apakah klakson berfungsi normal?",
+      "Apakah speedometer berfungsi normal?",
+      "Apakah semua sistem rem berfungsi? (Uji rem kaki: tahan pedal selama 10 detik \u2014 pedal tidak boleh merosot. Uji rem tangan: pada posisi netral/gigi 1 dengan rem tangan aktif, unit tidak boleh bergerak saat pedal rem dilepas.)",
+      "Apakah kondisi kaca spion (kanan dan kiri) baik?",
+      "Apakah wiper kaca depan bekerja?",
+      "Apakah kondisi APAR masih layak pakai (segel utuh, jarum tekanan hijau, belum expired)?",
+      "Apakah isi kotak P3K lengkap dan tidak ada yang expired?",
+      "Apakah alarm mundur berfungsi dengan baik?",
+      "Apakah segitiga pengaman (2 pcs) tersedia?"]},
+    {title:"SISTEM PENDINGIN MESIN",type:"BR",items:[
+      "Periksa kondisi tali kipas (tidak retak, tidak kendur)!",
+      "Periksa kebocoran pada sistem pendingin mesin!"]},
+    {title:"SISTEM BAHAN BAKAR",type:"BR",items:[
+      "Periksa kebocoran pada sistem bahan bakar!"]},
+    {title:"PEMERIKSAAN CAIRAN DAN NIPPLE GREASE",type:"CK",items:[
+      "Periksa kapasitas oli mesin!",
+      "Periksa kapasitas air radiator!",
+      "Periksa kapasitas oli rem!",
+      "Periksa kapasitas oli steering!",
+      "Periksa jumlah dan kondisi nipple grease!"]},
+  ]},
+  TRACTOR:{label:"Tractor",icon:"&#128668;",sections:[
+    {title:"KONDISI FISIK",type:"BR",items:[
+      "Bagaimana kondisi fisik body Tractor? (retak, penyok, karat parah)",
+      "Apakah ada tanda-tanda keausan atau kerusakan pada komponen yang terlihat?"]},
+    {title:"SISTEM PENGGERAK",type:"BR",items:[
+      "Apakah roda depan dan belakang serta velg dalam kondisi baik? (retak, bengkok, korosi)",
+      "Apakah kondisi ban layak pakai? (kedalaman alur ban \u2265 3mm, tidak ada retak dinding samping, tidak ada kabel yang terlihat)",
+      "Apakah sistem transmisi / kopling berfungsi normal?",
+      "Apakah tidak ada mur/baut roda yang kendur atau hilang? (periksa secara visual & ketuk dengan palu)",
+      "Apakah kondisi tie rod, drag link, ball joint, dan king pin baik? (tidak longgar, tidak retak, tidak ada cotter pin yang hilang)"]},
+    {title:"KEBOCORAN PELUMAS",type:"BR",items:[
+      "Apakah ada kebocoran pelumas dari mesin?",
+      "Apakah ada kebocoran pelumas dari gardan?",
+      "Apakah ada kebocoran pelumas dari transmisi?",
+      "Apakah ada kebocoran pelumas dari steering gear box?",
+      "Apakah ada kebocoran pelumas dari rem?",
+      "Apakah ada kebocoran pelumas dari hidrolik?"]},
+    {title:"SISTEM LISTRIK",type:"BR",items:[
+      "Apakah lampu depan berfungsi normal?",
+      "Apakah starter mesin dalam kondisi baik?",
+      "Apakah baterai terisi arus listrik dengan baik?"]},
+    {title:"SISTEM KESELAMATAN",type:"BR",items:[
+      "Apakah sabuk pengaman berfungsi dengan baik?",
+      "Apakah klakson berfungsi normal?",
+      "Apakah hour meter (HM) berfungsi normal?",
+      "Apakah semua sistem rem berfungsi? (Uji rem kaki: tahan pedal selama 10 detik \u2014 pedal tidak boleh merosot. Uji rem tangan: pada posisi netral/gigi 1 dengan rem tangan aktif, unit tidak boleh bergerak saat pedal rem dilepas.)",
+      "Apakah kondisi kaca spion (kanan dan kiri) baik?",
+      "Apakah wiper kaca depan bekerja?",
+      "Apakah kondisi APAR masih layak pakai (segel utuh, jarum tekanan hijau, belum expired)?",
+      "Apakah isi kotak P3K lengkap dan tidak ada yang expired?",
+      "Apakah alarm mundur berfungsi dengan baik?"]},
+    {title:"SISTEM PENDINGIN MESIN",type:"BR",items:[
+      "Periksa kondisi tali kipas (tidak retak, tidak kendur)!",
+      "Periksa kebocoran pada sistem pendingin mesin!"]},
+    {title:"SISTEM BAHAN BAKAR",type:"BR",items:[
+      "Periksa kebocoran pada sistem bahan bakar!"]},
+    {title:"PEMERIKSAAN CAIRAN DAN NIPPLE GREASE",type:"CK",items:[
+      "Periksa kapasitas oli mesin!",
+      "Periksa kapasitas air radiator!",
+      "Periksa kapasitas oli rem!",
+      "Periksa kapasitas oli hidrolik!",
+      "Periksa jumlah dan kondisi nipple grease!"]},
+  ]},
+  GRADER:{label:"Motor Grader",icon:"&#128739;",sections:[
+    {title:"KONDISI FISIK",type:"BR",items:[
+      "Bagaimana kondisi fisik body Motor Grader? (retak, penyok, karat parah)",
+      "Apakah ada tanda-tanda keausan atau kerusakan pada komponen yang terlihat?"]},
+    {title:"SISTEM PENGGERAK",type:"BR",items:[
+      "Apakah roda depan dan belakang serta velg dalam kondisi baik? (retak, bengkok, korosi)",
+      "Apakah kondisi ban layak pakai? (kedalaman alur ban \u2265 3mm, tidak ada retak dinding samping, tidak ada kabel yang terlihat)",
+      "Apakah sistem transmisi / kopling berfungsi normal?",
+      "Apakah tidak ada mur/baut roda yang kendur atau hilang? (periksa secara visual & ketuk dengan palu)"]},
+    {title:"KEBOCORAN PELUMAS",type:"BR",items:[
+      "Apakah ada kebocoran pelumas dari mesin?",
+      "Apakah ada kebocoran pelumas dari tandem?",
+      "Apakah ada kebocoran pelumas dari transmisi?",
+      "Apakah ada kebocoran pelumas dari steering gear box?",
+      "Apakah ada kebocoran pelumas dari rem?",
+      "Apakah ada kebocoran pelumas dari hidrolik?"]},
+    {title:"SISTEM LISTRIK",type:"BR",items:[
+      "Apakah lampu depan berfungsi normal?",
+      "Apakah starter mesin dalam kondisi baik?",
+      "Apakah baterai terisi arus listrik dengan baik?"]},
+    {title:"SISTEM KESELAMATAN",type:"BR",items:[
+      "Apakah sabuk pengaman berfungsi dengan baik?",
+      "Apakah klakson berfungsi normal?",
+      "Apakah hour meter (HM) berfungsi normal?",
+      "Apakah semua sistem rem berfungsi? (Uji rem kaki: tahan pedal selama 10 detik \u2014 pedal tidak boleh merosot. Uji rem tangan: pada posisi netral/gigi 1 dengan rem tangan aktif, unit tidak boleh bergerak saat pedal rem dilepas.)",
+      "Apakah kondisi kaca spion (kanan dan kiri) baik?",
+      "Apakah kondisi APAR masih layak pakai (segel utuh, jarum tekanan hijau, belum expired)?",
+      "Apakah isi kotak P3K lengkap dan tidak ada yang expired?",
+      "Apakah alarm mundur berfungsi dengan baik?"]},
+    {title:"SISTEM PENDINGIN MESIN",type:"BR",items:[
+      "Periksa kondisi tali kipas (tidak retak, tidak kendur)!",
+      "Periksa kebocoran pada sistem pendingin mesin!"]},
+    {title:"SISTEM BAHAN BAKAR",type:"BR",items:[
+      "Periksa kebocoran pada sistem bahan bakar!"]},
+    {title:"PEMERIKSAAN CAIRAN DAN NIPPLE GREASE",type:"CK",items:[
+      "Periksa kapasitas oli mesin!",
+      "Periksa kapasitas oli tandem!",
+      "Periksa kapasitas air radiator!",
+      "Periksa kapasitas oli rem!",
+      "Periksa kapasitas oli hidrolik!",
+      "Periksa jumlah dan kondisi nipple grease!"]},
+  ]},
+  BACKHOE:{label:"Backhoe Loader",icon:"&#127959;",sections:[
+    {title:"KONDISI FISIK",type:"BR",items:[
+      "Bagaimana kondisi fisik body Backhoe Loader? (retak, penyok, karat parah)",
+      "Apakah ada tanda-tanda keausan atau kerusakan pada komponen yang terlihat?"]},
+    {title:"SISTEM PENGGERAK",type:"BR",items:[
+      "Apakah roda depan dan belakang serta velg dalam kondisi baik? (retak, bengkok, korosi)",
+      "Apakah kondisi ban layak pakai? (kedalaman alur ban \u2265 3mm, tidak ada retak dinding samping, tidak ada kabel yang terlihat)",
+      "Apakah sistem transmisi / kopling berfungsi normal?",
+      "Apakah tidak ada mur/baut roda yang kendur atau hilang? (periksa secara visual & ketuk dengan palu)"]},
+    {title:"KEBOCORAN PELUMAS",type:"BR",items:[
+      "Apakah ada kebocoran pelumas dari mesin?",
+      "Apakah ada kebocoran pelumas dari front axle (gardan depan)?",
+      "Apakah ada kebocoran pelumas dari rear axle (gardan belakang)?",
+      "Apakah ada kebocoran pelumas dari transmisi?",
+      "Apakah ada kebocoran pelumas dari steering?",
+      "Apakah ada kebocoran pelumas dari rem?",
+      "Apakah ada kebocoran pelumas dari hidrolik?"]},
+    {title:"SISTEM LISTRIK",type:"BR",items:[
+      "Apakah lampu depan berfungsi normal?",
+      "Apakah starter mesin dalam kondisi baik?",
+      "Apakah baterai terisi arus listrik dengan baik?"]},
+    {title:"SISTEM KESELAMATAN",type:"BR",items:[
+      "Apakah sabuk pengaman berfungsi dengan baik?",
+      "Apakah klakson berfungsi normal?",
+      "Apakah hour meter (HM) berfungsi normal?",
+      "Apakah semua sistem rem berfungsi? (Uji rem kaki: tahan pedal selama 10 detik \u2014 pedal tidak boleh merosot. Uji rem tangan: pada posisi netral/gigi 1 dengan rem tangan aktif, unit tidak boleh bergerak saat pedal rem dilepas.)",
+      "Apakah kondisi kaca spion (kanan dan kiri) baik?",
+      "Apakah kondisi APAR masih layak pakai (segel utuh, jarum tekanan hijau, belum expired)?",
+      "Apakah isi kotak P3K lengkap dan tidak ada yang expired?",
+      "Apakah alarm mundur berfungsi dengan baik?"]},
+    {title:"SISTEM PENDINGIN MESIN",type:"BR",items:[
+      "Periksa kondisi tali kipas (tidak retak, tidak kendur)!",
+      "Periksa kebocoran pada sistem pendingin mesin!"]},
+    {title:"SISTEM BAHAN BAKAR",type:"BR",items:[
+      "Periksa kebocoran pada sistem bahan bakar!"]},
+    {title:"PEMERIKSAAN CAIRAN DAN NIPPLE GREASE",type:"CK",items:[
+      "Periksa kapasitas oli mesin!",
+      "Periksa kapasitas oli transmisi!",
+      "Periksa kapasitas air radiator!",
+      "Periksa kapasitas oli rem!",
+      "Periksa kapasitas oli hidrolik!",
+      "Periksa jumlah dan kondisi nipple grease!"]},
+  ]},
+  WL:{label:"Wheel Loader",icon:"&#127937;",sections:[
+    {title:"KONDISI FISIK",type:"BR",items:[
+      "Bagaimana kondisi fisik body Wheel Loader? (retak, penyok, karat parah)",
+      "Apakah ada tanda-tanda keausan atau kerusakan pada komponen yang terlihat?"]},
+    {title:"SISTEM PENGGERAK",type:"BR",items:[
+      "Apakah roda depan dan belakang serta velg dalam kondisi baik? (retak, bengkok, korosi)",
+      "Apakah kondisi ban layak pakai? (kedalaman alur ban \u2265 3mm, tidak ada retak dinding samping, tidak ada kabel yang terlihat)",
+      "Apakah sistem transmisi / kopling berfungsi normal?",
+      "Apakah tidak ada mur/baut roda yang kendur atau hilang? (periksa secara visual & ketuk dengan palu)"]},
+    {title:"KEBOCORAN PELUMAS",type:"BR",items:[
+      "Apakah ada kebocoran pelumas dari mesin?",
+      "Apakah ada kebocoran pelumas dari front axle (gardan depan)?",
+      "Apakah ada kebocoran pelumas dari rear axle (gardan belakang)?",
+      "Apakah ada kebocoran pelumas dari transmisi?",
+      "Apakah ada kebocoran pelumas dari steering?",
+      "Apakah ada kebocoran pelumas dari rem?",
+      "Apakah ada kebocoran pelumas dari hidrolik?"]},
+    {title:"SISTEM LISTRIK",type:"BR",items:[
+      "Apakah lampu depan berfungsi normal?",
+      "Apakah starter mesin dalam kondisi baik?",
+      "Apakah baterai terisi arus listrik dengan baik?"]},
+    {title:"SISTEM KESELAMATAN",type:"BR",items:[
+      "Apakah sabuk pengaman berfungsi dengan baik?",
+      "Apakah klakson berfungsi normal?",
+      "Apakah hour meter (HM) berfungsi normal?",
+      "Apakah semua sistem rem berfungsi? (Uji rem kaki: tahan pedal selama 10 detik \u2014 pedal tidak boleh merosot. Uji rem tangan: pada posisi netral/gigi 1 dengan rem tangan aktif, unit tidak boleh bergerak saat pedal rem dilepas.)",
+      "Apakah kondisi kaca spion (kanan dan kiri) baik?",
+      "Apakah kondisi APAR masih layak pakai (segel utuh, jarum tekanan hijau, belum expired)?",
+      "Apakah isi kotak P3K lengkap dan tidak ada yang expired?",
+      "Apakah alarm mundur berfungsi dengan baik?"]},
+    {title:"SISTEM PENDINGIN MESIN",type:"BR",items:[
+      "Periksa kondisi tali kipas (tidak retak, tidak kendur)!",
+      "Periksa kebocoran pada sistem pendingin mesin!"]},
+    {title:"SISTEM BAHAN BAKAR",type:"BR",items:[
+      "Periksa kebocoran pada sistem bahan bakar!"]},
+    {title:"PEMERIKSAAN CAIRAN DAN NIPPLE GREASE",type:"CK",items:[
+      "Periksa kapasitas oli mesin!",
+      "Periksa kapasitas oli transmisi!",
+      "Periksa kapasitas air radiator!",
+      "Periksa kapasitas oli rem!",
+      "Periksa kapasitas oli hidrolik!",
+      "Periksa jumlah dan kondisi nipple grease!"]},
+  ]},
+  VR:{label:"Vibrating Roller",icon:"&#128958;",sections:[
+    {title:"KONDISI FISIK",type:"BR",items:[
+      "Bagaimana kondisi fisik body Vibrating Roller? (retak, penyok, karat parah)",
+      "Apakah ada tanda-tanda keausan atau kerusakan pada komponen yang terlihat?"]},
+    {title:"SISTEM PENGGERAK",type:"BR",items:[
+      "Apakah roda depan dan belakang serta velg dalam kondisi baik? (retak, bengkok, korosi)",
+      "Apakah kondisi ban layak pakai? (kedalaman alur ban \u2265 3mm, tidak ada retak dinding samping, tidak ada kabel yang terlihat)",
+      "Apakah sistem transmisi / kopling berfungsi normal?",
+      "Apakah tidak ada mur/baut roda yang kendur atau hilang? (periksa secara visual & ketuk dengan palu)"]},
+    {title:"KEBOCORAN PELUMAS",type:"BR",items:[
+      "Apakah ada kebocoran pelumas dari mesin?",
+      "Apakah ada kebocoran pelumas dari drum depan?",
+      "Apakah ada kebocoran pelumas dari rear axle (gardan belakang)?",
+      "Apakah ada kebocoran pelumas dari transmisi?",
+      "Apakah ada kebocoran pelumas dari steering?",
+      "Apakah ada kebocoran pelumas dari rem?",
+      "Apakah ada kebocoran pelumas dari hidrolik?"]},
+    {title:"SISTEM LISTRIK",type:"BR",items:[
+      "Apakah lampu depan berfungsi normal?",
+      "Apakah starter mesin dalam kondisi baik?",
+      "Apakah baterai terisi arus listrik dengan baik?"]},
+    {title:"SISTEM KESELAMATAN",type:"BR",items:[
+      "Apakah sabuk pengaman berfungsi dengan baik?",
+      "Apakah klakson berfungsi normal?",
+      "Apakah hour meter (HM) berfungsi normal?",
+      "Apakah semua sistem rem berfungsi? (Uji rem kaki: tahan pedal selama 10 detik \u2014 pedal tidak boleh merosot. Uji rem tangan: pada posisi netral/gigi 1 dengan rem tangan aktif, unit tidak boleh bergerak saat pedal rem dilepas.)",
+      "Apakah kondisi kaca spion (kanan dan kiri) baik?",
+      "Apakah kondisi APAR masih layak pakai (segel utuh, jarum tekanan hijau, belum expired)?",
+      "Apakah isi kotak P3K lengkap dan tidak ada yang expired?",
+      "Apakah alarm mundur berfungsi dengan baik?"]},
+    {title:"SISTEM PENDINGIN MESIN",type:"BR",items:[
+      "Periksa kondisi tali kipas (tidak retak, tidak kendur)!",
+      "Periksa kebocoran pada sistem pendingin mesin!"]},
+    {title:"SISTEM BAHAN BAKAR",type:"BR",items:[
+      "Periksa kebocoran pada sistem bahan bakar!"]},
+    {title:"PEMERIKSAAN CAIRAN DAN NIPPLE GREASE",type:"CK",items:[
+      "Periksa kapasitas oli mesin!",
+      "Periksa kapasitas oli transmisi!",
+      "Periksa kapasitas air radiator!",
+      "Periksa kapasitas oli rem!",
+      "Periksa kapasitas oli hidrolik!",
+      "Periksa jumlah dan kondisi nipple grease!"]},
+  ]},
+  SSL:{label:"Skid Steer Loader",icon:"&#127887;",sections:[
+    {title:"KONDISI FISIK",type:"BR",items:[
+      "Bagaimana kondisi fisik body Skid Steer Loader? (retak, penyok, karat parah)",
+      "Apakah ada tanda-tanda keausan atau kerusakan pada komponen yang terlihat?"]},
+    {title:"SISTEM PENGGERAK",type:"BR",items:[
+      "Apakah roda depan dan belakang serta velg dalam kondisi baik? (retak, bengkok, korosi)",
+      "Apakah kondisi ban layak pakai? (kedalaman alur ban \u2265 3mm, tidak ada retak dinding samping, tidak ada kabel yang terlihat)",
+      "Apakah sistem transmisi / kopling berfungsi normal?",
+      "Apakah tidak ada mur/baut roda yang kendur atau hilang? (periksa secara visual & ketuk dengan palu)"]},
+    {title:"KEBOCORAN PELUMAS",type:"BR",items:[
+      "Apakah ada kebocoran pelumas dari mesin?",
+      "Apakah ada kebocoran pelumas dari main pump (pompa utama)?",
+      "Apakah ada kebocoran pelumas dari hidrolik motor kanan?",
+      "Apakah ada kebocoran pelumas dari hidrolik motor kiri?",
+      "Apakah ada kebocoran pelumas dari selang hidrolik?"]},
+    {title:"SISTEM LISTRIK",type:"BR",items:[
+      "Apakah lampu depan berfungsi normal?",
+      "Apakah starter mesin dalam kondisi baik?",
+      "Apakah baterai terisi arus listrik dengan baik?"]},
+    {title:"SISTEM KESELAMATAN",type:"BR",items:[
+      "Apakah sabuk pengaman berfungsi dengan baik?",
+      "Apakah klakson berfungsi normal?",
+      "Apakah hour meter (HM) berfungsi normal?",
+      "Apakah semua sistem rem berfungsi? (Uji rem kaki: tahan pedal selama 10 detik \u2014 pedal tidak boleh merosot. Uji rem tangan: pada posisi netral/gigi 1 dengan rem tangan aktif, unit tidak boleh bergerak saat pedal rem dilepas.)",
+      "Apakah kondisi kaca spion (kanan dan kiri) baik?",
+      "Apakah kondisi APAR masih layak pakai (segel utuh, jarum tekanan hijau, belum expired)?",
+      "Apakah isi kotak P3K lengkap dan tidak ada yang expired?",
+      "Apakah alarm mundur berfungsi dengan baik?"]},
+    {title:"SISTEM PENDINGIN MESIN",type:"BR",items:[
+      "Periksa kondisi tali kipas (tidak retak, tidak kendur)!",
+      "Periksa kebocoran pada sistem pendingin mesin!"]},
+    {title:"SISTEM BAHAN BAKAR",type:"BR",items:[
+      "Periksa kebocoran pada sistem bahan bakar!"]},
+    {title:"PEMERIKSAAN CAIRAN DAN NIPPLE GREASE",type:"CK",items:[
+      "Periksa kapasitas oli mesin!",
+      "Periksa kapasitas oli transmisi!",
+      "Periksa kapasitas air radiator!",
+      "Periksa kapasitas oli hidrolik!",
+      "Periksa jumlah dan kondisi nipple grease!"]},
+  ]},
+  TH:{label:"Telescopic Handler",icon:"&#127940;",sections:[
+    {title:"KONDISI FISIK",type:"BR",items:[
+      "Bagaimana kondisi fisik body Telescopic Handler? (retak, penyok, karat parah)",
+      "Apakah ada tanda-tanda keausan atau kerusakan pada komponen yang terlihat?"]},
+    {title:"SISTEM PENGGERAK",type:"BR",items:[
+      "Apakah roda depan dan belakang serta velg dalam kondisi baik? (retak, bengkok, korosi)",
+      "Apakah kondisi ban layak pakai? (kedalaman alur ban \u2265 3mm, tidak ada retak dinding samping, tidak ada kabel yang terlihat)",
+      "Apakah sistem transmisi / kopling berfungsi normal?",
+      "Apakah tidak ada mur/baut roda yang kendur atau hilang? (periksa secara visual & ketuk dengan palu)"]},
+    {title:"KEBOCORAN PELUMAS",type:"BR",items:[
+      "Apakah ada kebocoran pelumas dari mesin?",
+      "Apakah ada kebocoran pelumas dari front axle (gardan depan)?",
+      "Apakah ada kebocoran pelumas dari rear axle (gardan belakang)?",
+      "Apakah ada kebocoran pelumas dari transmisi?",
+      "Apakah ada kebocoran pelumas dari steering?",
+      "Apakah ada kebocoran pelumas dari rem?",
+      "Apakah ada kebocoran pelumas dari hidrolik?"]},
+    {title:"SISTEM LISTRIK",type:"BR",items:[
+      "Apakah lampu depan berfungsi normal?",
+      "Apakah starter mesin dalam kondisi baik?",
+      "Apakah baterai terisi arus listrik dengan baik?"]},
+    {title:"SISTEM KESELAMATAN",type:"BR",items:[
+      "Apakah sabuk pengaman berfungsi dengan baik?",
+      "Apakah klakson berfungsi normal?",
+      "Apakah hour meter (HM) berfungsi normal?",
+      "Apakah semua sistem rem berfungsi? (Uji rem kaki: tahan pedal selama 10 detik \u2014 pedal tidak boleh merosot. Uji rem tangan: pada posisi netral/gigi 1 dengan rem tangan aktif, unit tidak boleh bergerak saat pedal rem dilepas.)",
+      "Apakah kondisi kaca spion (kanan dan kiri) baik?",
+      "Apakah kondisi APAR masih layak pakai (segel utuh, jarum tekanan hijau, belum expired)?",
+      "Apakah isi kotak P3K lengkap dan tidak ada yang expired?",
+      "Apakah alarm mundur berfungsi dengan baik?"]},
+    {title:"SISTEM PENDINGIN MESIN",type:"BR",items:[
+      "Periksa kondisi tali kipas (tidak retak, tidak kendur)!",
+      "Periksa kebocoran pada sistem pendingin mesin!"]},
+    {title:"SISTEM BAHAN BAKAR",type:"BR",items:[
+      "Periksa kebocoran pada sistem bahan bakar!"]},
+    {title:"PEMERIKSAAN CAIRAN DAN NIPPLE GREASE",type:"CK",items:[
+      "Periksa kapasitas oli mesin!",
+      "Periksa kapasitas oli transmisi!",
+      "Periksa kapasitas air radiator!",
+      "Periksa kapasitas oli rem!",
+      "Periksa kapasitas oli hidrolik!",
+      "Periksa jumlah dan kondisi nipple grease!"]},
+  ]},
+  BUS:{label:"Bus Sekolah",icon:"&#128652;",sections:[
+    {title:"KONDISI FISIK",type:"BR",items:[
+      "Bagaimana kondisi fisik body Bus Sekolah? (retak, penyok, karat parah)",
+      "Apakah ada tanda-tanda keausan atau kerusakan pada komponen yang terlihat?"]},
+    {title:"SISTEM PENGGERAK",type:"BR",items:[
+      "Apakah roda depan dan belakang serta velg dalam kondisi baik? (retak, bengkok, korosi)",
+      "Apakah kondisi ban layak pakai? (kedalaman alur ban \u2265 3mm, tidak ada retak dinding samping, tidak ada kabel yang terlihat)",
+      "Apakah sistem transmisi / kopling berfungsi normal?",
+      "Apakah tidak ada mur/baut roda yang kendur atau hilang? (periksa secara visual & ketuk dengan palu)",
+      "Apakah kondisi tie rod, drag link, ball joint, dan king pin baik? (tidak longgar, tidak retak, tidak ada cotter pin yang hilang)"]},
+    {title:"KEBOCORAN PELUMAS",type:"BR",items:[
+      "Apakah ada kebocoran pelumas dari mesin?",
+      "Apakah ada kebocoran pelumas dari gardan?",
+      "Apakah ada kebocoran pelumas dari transmisi?",
+      "Apakah ada kebocoran pelumas dari steering gear box?",
+      "Apakah ada kebocoran pelumas dari rem?"]},
+    {title:"SISTEM LISTRIK",type:"BR",items:[
+      "Apakah lampu depan kecil berfungsi normal?",
+      "Apakah lampu dekat berfungsi normal?",
+      "Apakah lampu jauh berfungsi normal?",
+      "Apakah lampu sen berfungsi normal?",
+      "Apakah lampu hazard berfungsi normal?",
+      "Apakah air conditioner (AC) dalam kondisi baik?"]},
+    {title:"SISTEM KESELAMATAN",type:"BR",items:[
+      "Apakah sabuk pengaman berfungsi dengan baik?",
+      "Apakah klakson berfungsi normal?",
+      "Apakah speedometer berfungsi normal?",
+      "Apakah semua sistem rem berfungsi? (Uji rem kaki: tahan pedal selama 10 detik \u2014 pedal tidak boleh merosot. Uji rem tangan: pada posisi netral/gigi 1 dengan rem tangan aktif, unit tidak boleh bergerak saat pedal rem dilepas.)",
+      "Apakah kondisi kaca spion (kanan dan kiri) baik?",
+      "Apakah wiper kaca depan bekerja?",
+      "Apakah penyemprot air kaca bekerja?",
+      "Apakah kondisi APAR masih layak pakai (segel utuh, jarum tekanan hijau, belum expired)?",
+      "Apakah isi kotak P3K lengkap dan tidak ada yang expired?",
+      "Apakah alarm mundur berfungsi dengan baik?",
+      "Apakah pengganjal roda (wheel chock) tersedia?",
+      "Apakah segitiga pengaman (2 pcs) tersedia?"]},
+    {title:"SISTEM PENDINGIN MESIN",type:"BR",items:[
+      "Periksa kondisi tali kipas (tidak retak, tidak kendur)!",
+      "Periksa kebocoran pada sistem pendingin mesin!"]},
+    {title:"SISTEM BAHAN BAKAR",type:"BR",items:[
+      "Periksa kebocoran pada sistem bahan bakar!"]},
+    {title:"PEMERIKSAAN CAIRAN DAN NIPPLE GREASE",type:"CK",items:[
+      "Periksa kapasitas oli mesin!",
+      "Periksa kapasitas air radiator!",
+      "Periksa kapasitas oli rem!",
+      "Periksa kapasitas oli steering!",
+      "Periksa jumlah dan kondisi nipple grease!"]},
+  ]},
+  FORKLIFT:{label:"Forklift",icon:"&#128296;",sections:[
+    {title:"KONDISI FISIK",type:"BR",items:[
+      "Bagaimana kondisi fisik body dan attachment Forklift? (retak, bengkok, penyok, karat parah)",
+      "Apakah ada tanda-tanda keausan atau kerusakan pada komponen yang terlihat?"]},
+    {title:"SISTEM PENGGERAK",type:"BR",items:[
+      "Apakah roda depan dan belakang serta velg dalam kondisi baik? (retak, bengkok, korosi)",
+      "Apakah kondisi ban layak pakai? (kedalaman alur ban \u2265 3mm, tidak ada retak dinding samping, tidak ada kabel yang terlihat)",
+      "Apakah sistem transmisi / kopling berfungsi normal?",
+      "Apakah tidak ada mur/baut roda yang kendur atau hilang? (periksa secara visual & ketuk dengan palu)"]},
+    {title:"KEBOCORAN PELUMAS",type:"BR",items:[
+      "Apakah ada kebocoran pelumas dari mesin?",
+      "Apakah ada kebocoran pelumas dari front axle?",
+      "Apakah ada kebocoran pelumas dari transmisi?",
+      "Apakah ada kebocoran pelumas dari tangki hydraulic?",
+      "Apakah ada kebocoran pelumas dari main pump (pompa hidrolik)?",
+      "Apakah ada kebocoran pelumas dari control valve hidrolik?",
+      "Apakah ada kebocoran pelumas dari cylinder-cylinder hidrolik?",
+      "Apakah ada kebocoran pelumas dari selang hidrolik?"]},
+    {title:"SISTEM LISTRIK",type:"BR",items:[
+      "Apakah lampu depan berfungsi normal?",
+      "Apakah starter mesin dalam kondisi baik?",
+      "Apakah baterai terisi arus listrik dengan baik?"]},
+    {title:"SISTEM KESELAMATAN",type:"BR",items:[
+      "Apakah sabuk pengaman berfungsi dengan baik?",
+      "Apakah klakson berfungsi normal?",
+      "Apakah hour meter (HM) berfungsi normal?",
+      "Apakah semua sistem rem berfungsi? (Uji rem kaki: tahan pedal selama 10 detik \u2014 pedal tidak boleh merosot. Uji rem tangan: pada posisi netral/gigi 1 dengan rem tangan aktif, unit tidak boleh bergerak saat pedal rem dilepas.)",
+      "Apakah kondisi kaca spion (kanan dan kiri) baik?",
+      "Apakah kondisi APAR masih layak pakai (segel utuh, jarum tekanan hijau, belum expired)?",
+      "Apakah alarm mundur berfungsi dengan baik?"]},
+    {title:"SISTEM PENDINGIN MESIN",type:"BR",items:[
+      "Periksa kondisi tali kipas (tidak retak, tidak kendur)!",
+      "Periksa kebocoran pada sistem pendingin mesin!"]},
+    {title:"SISTEM BAHAN BAKAR",type:"BR",items:[
+      "Periksa kebocoran pada sistem bahan bakar!"]},
+    {title:"PEMERIKSAAN CAIRAN DAN NIPPLE GREASE",type:"CK",items:[
+      "Periksa kapasitas oli mesin!",
+      "Periksa kapasitas oli transmisi!",
+      "Periksa kapasitas air radiator!",
+      "Periksa kapasitas oli hidrolik!",
+      "Periksa jumlah dan kondisi nipple grease!"]},
+  ]},
+  GENSET:{label:"Diesel Genset",icon:"&#9889;",sections:[
+    {title:"KONDISI FISIK",type:"BR",items:[
+      "Bagaimana kondisi fisik body Diesel Genset? (retak, penyok, karat parah)",
+      "Apakah ada tanda-tanda keausan atau kerusakan pada komponen yang terlihat?"]},
+    {title:"ENGINE DAN GENERATOR",type:"BR",items:[
+      "Periksa tutup radiator!",
+      "Periksa kondisi fan belt!",
+      "Periksa kondisi water pump!",
+      "Periksa pemipaan gas buang, apakah kondisi baik?",
+      "Apakah tidak ada mur/baut yang kendur atau hilang? (periksa secara visual & ketuk dengan palu)",
+      "Periksa kondisi rubber / spring mounting!",
+      "Periksa kondisi nipple grease bearing generator jika ada!"]},
+    {title:"KEBOCORAN PADA ENGINE",type:"BR",items:[
+      "Apakah ada kebocoran pelumas dari mesin?",
+      "Apakah ada kebocoran dari radiator?",
+      "Apakah ada kebocoran dari water pump?",
+      "Apakah ada kebocoran dari sistem bahan bakar?"]},
+    {title:"SISTEM LISTRIK PANEL KONTROL ENGINE & GENERATOR",type:"BR",items:[
+      "Apakah kunci kontak berfungsi normal?",
+      "Apakah sistem starter mesin berfungsi normal?",
+      "Apakah sistem battery charging berfungsi normal?",
+      "Apakah safety device temperature berfungsi normal?",
+      "Apakah safety device low oil engine pressure berfungsi normal?",
+      "Apakah HM berfungsi normal?",
+      "Apakah AC voltmeter (jika ada) berfungsi normal?",
+      "Apakah AC ampere meter (jika ada) berfungsi normal?",
+      "Apakah frequency meter (jika ada) berfungsi normal?",
+      "Apakah tombol emergency (jika ada) berfungsi normal?",
+      "Apakah MCB berfungsi normal?"]},
+    {title:"SISTEM KESELAMATAN",type:"BR",items:[
+      "Apakah grounding terpasang dengan baik?",
+      "Apakah Earmuff tersedia dalam kondisi lengkap dan baik?",
+      "Apakah kotak P3K dan isinya tersedia dalam ruangan genset dengan lengkap dan tidak ada yang expired?",
+      "Apakah kondisi APAR masih layak pakai (segel utuh, jarum tekanan hijau, belum expired)?",
+      "Apakah kondisi lantai kering dan tidak licin?"]},
+    {title:"PEMERIKSAAN CAIRAN",type:"CK",items:[
+      "Periksa kapasitas oli mesin!",
+      "Periksa kapasitas air radiator!"]},
+  ]},
+};
+const DAYS=["Senin","Selasa","Rabu","Kamis","Jumat","Sabtu","Minggu"];
+function todayStr(){return new Date().toISOString().slice(0,10);}
+function todayDay(){const d=new Date().getDay();return DAYS[d===0?6:d-1];}
+function genId(){return Date.now().toString(36)+Math.random().toString(36).slice(2,5);}
+
+let S={
+  tab:"form",step:0,vt:"DT",
+  info:{ou:"",operator:"",noPol:"",hmKm:"",hari:todayDay(),tanggal:todayStr()},
+  results:{},catatan:"",weekly:{torque:"",oli:"",mekanik:"",note:""},done:false,
+  ouList:[],operatorList:[],operatorMap:{},
+  loading:false,saving:false,
+  sum:{tanggal:new Date().toISOString().slice(0,10),data:[],loading:false,loaded:false,filter:"ALL"}
+};
+
+// ================================================================
+// OFFLINE QUEUE & AUTO-SYNC
+// ================================================================
+function getQueue(){try{return JSON.parse(localStorage.getItem("di_queue")||"[]");}catch(e){return[];}}
+function saveQueue(q){try{localStorage.setItem("di_queue",JSON.stringify(q));}catch(e){}}
+
+function addToQueue(payload){
+  const q=getQueue();
+  q.push({...payload, _queuedAt: new Date().toISOString()});
+  saveQueue(q);
+  render();
+}
+
+async function syncQueue(){
+  if(!navigator.onLine) return;
+  const q=getQueue();
+  if(q.length===0) return;
+  const remaining=[];
+  for(const item of q){
+    try{
+      const r=await apiPost(item);
+      if(r.status!=="ok") remaining.push(item);
+    }catch(e){ remaining.push(item); }
+  }
+  saveQueue(remaining);
+  if(remaining.length < q.length){
+    toast("✅ "+(q.length-remaining.length)+" data berhasil tersync ke Google Sheets!");
+  }
+  render();
+}
+
+// Listen for online event — auto sync
+window.addEventListener("online", ()=>{
+  toast("🌐 Sinyal kembali! Menyinkronkan data...");
+  setTimeout(syncQueue, 1500);
+});
+
+// Try sync every 30 seconds
+setInterval(()=>{ if(navigator.onLine) syncQueue(); }, 30000);
+
+async function api(params){
+  const res=await fetch(API_URL+"?"+new URLSearchParams(params));
+  return res.json();
+}
+async function apiPost(body){
+  const res=await fetch(API_URL,{method:"POST",body:JSON.stringify(body),headers:{"Content-Type":"text/plain"}});
+  return res.json();
+}
+async function loadOU(){
+  S.loading=true;render();
+  try{const r=await api({action:"getOU"});if(r.status==="ok")S.ouList=r.data;}
+  catch(e){toast("❌ Gagal memuat data OU");}
+  S.loading=false;render();
+}
+async function loadOps(ou){
+  S.operatorList=[];S.operatorMap={};S.info.operator="";S.info.noPol="";S.info.vt="";render();
+  try{
+    const r=await api({action:"getOperators",ou});
+    if(r.status==="ok"){
+      S.operatorList=r.data; // [{name, noPol, vt}]
+      r.data.forEach(o=>S.operatorMap[o.name]=o);
+    }
+  }catch(e){toast("❌ Gagal memuat operator");}
+  render();
+}
+function selectOperator(name){
+  S.info.operator=name;
+  const op=S.operatorMap[name];
+  if(op){
+    S.info.noPol=op.noPol||"";
+    if(op.vt&&VT[op.vt])S.vt=op.vt;
+  }
+  render();
+}
+async function submitRecord(){
+  S.saving=true;render();
+  try{
+    const cl=VT[S.vt];
+    const payload={
+      id:genId(),ou:S.info.ou,operator:S.info.operator,
+      noPol:S.info.noPol,hmKm:S.info.hmKm,
+      hari:S.info.hari,tanggal:S.info.tanggal,
+      vt:S.vt,vtLabel:cl.label,
+      status:getStatus()||"BAIK",
+      catatan:S.catatan,
+      weeklyTorque:S.weekly.torque,
+      weeklyOli:S.weekly.oli,
+      weeklyBy:S.weekly.mekanik,
+      weeklyNote:S.weekly.note,
+      results:S.results,
+      sections:cl.sections.map(s=>({title:s.title,type:s.type,items:s.items}))
+    };
+    if(!navigator.onLine){
+      addToQueue(payload);
+      S.done=true;
+      toast("📵 Offline — data disimpan, akan dikirim saat ada sinyal");
+    } else {
+      try{
+        const r=await apiPost(payload);
+        if(r.status==="ok"){
+          S.done=true;
+          toast("✅ Tersimpan di Google Sheets!");
+          syncQueue();
+        } else {
+          addToQueue(payload);
+          S.done=true;
+          toast("⚠️ Gagal kirim, data disimpan & akan coba lagi");
+        }
+      }catch(e){
+        addToQueue(payload);
+        S.done=true;
+        toast("📵 Tidak ada koneksi — data disimpan lokal");
+      }
+    }
+  }catch(e){toast("❌ Terjadi kesalahan");}
+  S.saving=false;render();
+}
+
+function toast(msg){
+  const t=document.getElementById("toast");
+  t.textContent=msg;t.classList.add("show");
+  setTimeout(()=>t.classList.remove("show"),3500);
+}
+function getStatus(){
+  const cl=VT[S.vt];
+  const all=cl.sections.flatMap((s,si)=>s.items.map((_,ii)=>({key:`${si}-${ii}`,type:s.type})));
+  if(!all.every(({key})=>S.results[key]))return null;
+  return all.some(({key,type})=>type==="BR"?S.results[key]==="Rusak":S.results[key]==="Kurang")?"RUSAK":"BAIK";
+}
+function setR(si,ii,v){S.results[`${si}-${ii}`]=v;render();}
+function resetForm(){
+  S.step=0;S.results={};S.weekly={torque:"",oli:"",mekanik:"",note:""};S.catatan="";S.done=false;
+  S.info={ou:S.info.ou,operator:"",noPol:"",hmKm:"",hari:todayDay(),tanggal:todayStr()};
+  S.vt="DT";render();
+}
+
+// ── SUMMARY MANDOR ──
+function loadSummary(){
+  const t=S.sum.tanggal;
+  S.sum.loading=true;S.sum.loaded=false;S.sum.data=[];render();
+  const cb="cb_"+Date.now();
+  const sc=document.createElement("script");
+  window[cb]=function(r){
+    delete window[cb];
+    if(document.body.contains(sc))document.body.removeChild(sc);
+    if(r.status==="ok"){S.sum.data=r.data;S.sum.loaded=true;}
+    else toast("❌ "+r.message);
+    S.sum.loading=false;render();
+  };
+  sc.onerror=function(){
+    delete window[cb];
+    if(document.body.contains(sc))document.body.removeChild(sc);
+    toast("❌ Gagal memuat data");
+    S.sum.loading=false;render();
+  };
+  sc.src=API_URL+"?"+new URLSearchParams({action:"getSummary",tanggal:t,callback:cb});
+  document.body.appendChild(sc);
+}
+
+function shareWA(){
+  const f=S.sum.data.filter(r=>S.sum.filter==="ALL"||r.status===S.sum.filter);
+  if(!f.length){toast("Tidak ada data");return;}
+  const tgl=new Date(S.sum.tanggal).toLocaleDateString("id-ID",{weekday:"long",day:"2-digit",month:"long",year:"numeric"});
+  const baik=f.filter(r=>r.status==="BAIK").length;
+  const rusak=f.filter(r=>r.status==="RUSAK").length;
+  const pct=Math.round((baik/f.length)*100);
+  let msg="*📋 SUMMARY INSPEKSI HARIAN*\n";
+  msg+="📅 "+tgl+"\n";
+  msg+="━━━━━━━━━━━━━━━━━━━━\n";
+  msg+="📊 Total Unit    : *"+f.length+"*\n";
+  msg+="✅ Kondisi Baik  : *"+baik+" unit* ("+pct+"%)\n";
+  msg+="⚠️ Ada Temuan   : *"+rusak+" unit*\n";
+  msg+="━━━━━━━━━━━━━━━━━━━━\n\n";
+  msg+="*DETAIL HM/KM ARMADA:*\n\n";
+  const icons={DT:"🚛",LV:"🚙",TRACTOR:"🚜",GRADER:"🛣️",BACKHOE:"🏗️",WL:"🟡",VR:"🛞",SSL:"🟠",TH:"🟤",BUS:"🚌"};
+  f.forEach((r,i)=>{
+    msg+=(i+1)+". "+(icons[r.vt]||"🚗")+" *"+r.noPol+"*\n";
+    msg+="    👤 "+r.operator+"\n";
+    msg+="    ⏱️ HM/KM: *"+r.hmKm+"*\n";
+    msg+="    "+(r.status==="BAIK"?"✅":"⚠️")+" "+r.status+"\n\n";
+  });
+  if(rusak>0){
+    msg+="*⚠️ UNIT DENGAN TEMUAN:*\n";
+    f.filter(r=>r.status==="RUSAK").forEach(r=>{msg+="• "+r.noPol+" — "+r.operator+"\n";});
+  }
+  msg+="\n_Daily Inspection · RMO-NS_";
+  window.open("https://wa.me/?text="+encodeURIComponent(msg),"_blank");
+}
+
+function render(){
+  const cl=VT[S.vt];
+  const totalSec=cl.sections.length;
+  const cur=S.step>0&&S.step<=totalSec?cl.sections[S.step-1]:null;
+  const pct=S.step===0?0:Math.round((S.step/totalSec)*100);
+  let C="";
+
+  if(S.tab==="form"){
+    if(S.done){
+      const gs=getStatus()||"BAIK";
+      C=`<div style="text-align:center;padding:48px 20px;">
+        <div style="font-size:60px;margin-bottom:14px;">${gs==="BAIK"?"✅":"⚠️"}</div>
+        <div style="font-weight:800;font-size:20px;color:${gs==="BAIK"?"#16a34a":"#dc2626"};margin-bottom:8px;">${gs==="BAIK"?"UNIT BAIK — LAYAK OPERASI":"ADA TEMUAN — PERLU TINDAKAN"}</div>
+        <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:12px 16px;margin:16px 0;text-align:left;font-size:13px;line-height:1.9;color:#166534;">
+          📊 <strong>Google Sheets diperbarui:</strong><br/>
+          Sheet: <strong>${S.info.noPol}</strong><br/>
+          Kolom baru: <strong>${new Date().toLocaleDateString("id-ID")} ${new Date().toLocaleTimeString("id-ID",{hour:"2-digit",minute:"2-digit"})}</strong><br/>
+          Operator: <strong>${S.info.operator}</strong>
+        </div>
+        <div id="queueInfo"></div>
+        <button class="btn-g" onclick="resetForm()">+ Inspeksi Baru</button>
+      </div>`;
+    } else {
+      let fb="";
+      if(S.step>0){
+        fb+=`<div style="margin-bottom:12px;">
+          <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+            <span style="font-size:12px;font-weight:600;color:#475569;">${S.step<=totalSec?`Seksi ${S.step}/${totalSec} · ${cur?.title}`:"Review & Simpan"}</span>
+            <span style="font-size:12px;font-weight:700;color:#16a34a;">${pct}%</span>
+          </div>
+          <div class="pb"><div class="pf" style="width:${pct}%;"></div></div>
+        </div>`;
+      }
+
+      if(S.step===0){
+        const ouOpts=S.ouList.map(o=>`<option value="${o}" ${S.info.ou===o?"selected":""}>${o}</option>`).join("");
+        const opOpts=S.operatorList.map(o=>`<option value="${o.name}" ${S.info.operator===o.name?"selected":""}>${o.name}${o.noPol?' — '+o.noPol:''}</option>`).join("");
+        const vtBtns=Object.entries(VT).map(([k,v])=>`
+          <button class="vb ${S.vt===k?"sel":""}" onclick="S.vt='${k}';S.results={};render();" style="width:calc(33.33% - 5px);">
+            <div style="font-size:22px;">${v.icon}</div>
+            <div style="font-size:11px;font-weight:700;color:${S.vt===k?"#16a34a":"#475569"};margin-top:2px;">${k}</div>
+            <div style="font-size:9px;color:#94a3b8;line-height:1.3;">${v.label}</div>
+          </button>`).join("");
+        fb+=`
+          <div class="card" style="padding:14px;margin-bottom:12px;">
+            <div style="font-weight:700;font-size:14px;margin-bottom:12px;">📋 Informasi Kendaraan</div>
+            ${S.loading
+              ?`<div style="padding:24px;text-align:center;"><div class="spinner"></div><div style="margin-top:10px;font-size:13px;color:#94a3b8;">Memuat data...</div></div>`
+              :`<div style="display:flex;flex-direction:column;gap:10px;">
+              <div><div class="lbl">Operating Unit (OU)</div>
+                <select class="inp" onchange="S.info.ou=this.value;loadOps(this.value);">
+                  <option value="">-- Pilih OU --</option>${ouOpts}
+                </select>
+              </div>
+              <div><div class="lbl">Nama Supir / Helper / Operator</div>
+                <select class="inp" ${!S.info.ou?"disabled":""} onchange="selectOperator(this.value);">
+                  <option value="">-- Pilih Operator --</option>${opOpts}
+                </select>
+              </div>
+              <div>
+                <div class="lbl">No. Polisi / No. Mesin</div>
+                <div style="background:${S.info.noPol?'#f0fdf4':'#f8fafc'};border:1.5px solid ${S.info.noPol?'#16a34a':'#e2e8f0'};border-radius:8px;padding:12px;font-size:15px;font-weight:700;color:${S.info.noPol?'#166534':'#94a3b8'};">
+                  ${S.info.noPol||'— Otomatis dari Operator —'}
+                </div>
+                <div style="font-size:11px;color:#94a3b8;margin-top:3px;">Terisi otomatis saat Operator dipilih · Nama sheet di Google Sheets</div>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+                <div><div class="lbl">Hari</div>
+                  <select class="inp" onchange="S.info.hari=this.value;">
+                    ${DAYS.map(d=>`<option ${S.info.hari===d?"selected":""}>${d}</option>`).join("")}
+                  </select>
+                </div>
+                <div><div class="lbl">Tanggal</div>
+                  <input class="inp" type="date" value="${S.info.tanggal}" oninput="S.info.tanggal=this.value;"/>
+                </div>
+              </div>
+              <div><div class="lbl">To Date HM / KM</div>
+                <input class="inp" placeholder="Angka HM atau KM saat ini" value="${S.info.hmKm}" oninput="S.info.hmKm=this.value;"/>
+              </div>
+            </div>`}
+          </div>
+          <div class="card" style="padding:14px;margin-bottom:12px;">
+            <div style="font-weight:700;font-size:14px;margin-bottom:12px;">🚗 Jenis Kendaraan / Mesin</div>
+            <div style="display:flex;flex-wrap:wrap;gap:6px;">${vtBtns}</div>
+          </div>
+          <button class="btn-g" ${!S.info.ou||!S.info.operator||!S.info.noPol?"disabled":""} onclick="S.step=1;render();">Mulai Inspeksi →</button>`;
+      }
+
+      else if(S.step>0&&S.step<=totalSec&&cur){
+        const isCK=cur.type==="CK";
+        const items=cur.items.map((item,ii)=>{
+          const key=`${S.step-1}-${ii}`;const val=S.results[key];
+          const btns=!isCK
+            ?`<button class="cb ${val==="Baik"?"cb-baik":""}" onclick="setR(${S.step-1},${ii},'Baik')">✓ Baik</button>
+               <button class="cb ${val==="Rusak"?"cb-rusak":""}" onclick="setR(${S.step-1},${ii},'Rusak')">✗ Rusak</button>`
+            :`<button class="cb ${val==="Cukup"?"cb-cukup":""}" onclick="setR(${S.step-1},${ii},'Cukup')">✓ Cukup</button>
+              <button class="cb ${val==="Kurang"?"cb-kurang":""}" onclick="setR(${S.step-1},${ii},'Kurang')">⚠ Kurang</button>`;
+          return `<div class="ir">
+            <div style="font-size:14px;color:#334155;line-height:1.5;margin-bottom:8px;">${ii+1}. ${item}</div>
+            <div style="display:flex;gap:6px;">${btns}</div>
+          </div>`;
+        }).join("");
+        fb+=`
+          <div class="card" style="margin-bottom:12px;overflow:hidden;">
+            <div class="sh">${cur.title}${isCK?" · Cukup / Kurang":""}</div>${items}
+          </div>
+          <div style="display:flex;gap:8px;">
+            <button class="btn-o" style="flex:0.4;" onclick="S.step--;render();">← Kembali</button>
+            <button class="btn-g" style="flex:1;" onclick="S.step++;render();">${S.step<totalSec?"Lanjut →":"Review ✓"}</button>
+          </div>`;
+      }
+
+      else if(S.step===totalSec+1){
+        const gs=getStatus();
+        const rows=cl.sections.map((sec,si)=>{
+          const neg=sec.items.filter((_,ii)=>{const v=S.results[`${si}-${ii}`];return v==="Rusak"||v==="Kurang";}).length;
+          const pos=sec.items.length-neg;
+          return `<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #f1f5f9;">
+            <span style="font-size:12px;color:#475569;flex:1;padding-right:8px;">${sec.title}</span>
+            <div style="display:flex;gap:6px;flex-shrink:0;">
+              <span style="font-size:11px;font-weight:700;color:#16a34a;background:#f0fdf4;padding:2px 8px;border-radius:12px;">✓${pos}</span>
+              ${neg>0?`<span style="font-size:11px;font-weight:700;color:#dc2626;background:#fef2f2;padding:2px 8px;border-radius:12px;">✗${neg}</span>`:""}
+            </div></div>`;
+        }).join("");
+        fb+=`
+          <div class="card" style="padding:14px;margin-bottom:12px;">
+            <div style="font-weight:700;font-size:15px;margin-bottom:4px;">Review Hasil Inspeksi</div>
+            <div style="font-size:12px;color:#94a3b8;margin-bottom:12px;">${S.info.noPol} · ${VT[S.vt].label} · ${S.info.operator}</div>
+            ${rows}
+            <div style="margin-top:12px;padding:10px 14px;background:${gs==="BAIK"?"#f0fdf4":"#fef2f2"};border-radius:8px;border:1.5px solid ${gs==="BAIK"?"#16a34a":"#dc2626"};">
+              <div style="font-weight:800;font-size:14px;color:${gs==="BAIK"?"#16a34a":"#dc2626"};">${gs==="BAIK"?"✅ UNIT BAIK — LAYAK OPERASI":"⚠️ ADA TEMUAN — PERLU TINDAKAN"}</div>
+            </div>
+          </div>
+          <div class="card" style="padding:14px;margin-bottom:12px;">
+            <div style="font-size:11px;color:#16a34a;font-weight:700;text-transform:uppercase;margin-bottom:8px;letter-spacing:0.05em;">📊 Output Google Sheets</div>
+            <div style="font-size:12px;color:#475569;line-height:1.9;">
+              Sheet: <strong>${S.info.noPol}</strong><br/>
+              Kolom baru: <strong>timestamp saat ini</strong><br/>
+              Baris: semua item checklist ${VT[S.vt].label}
+            </div>
+          </div>
+          <div class="card" style="padding:14px;margin-bottom:12px;">
+            <div class="lbl" style="margin-bottom:8px;">Catatan Operator (opsional)</div>
+            <textarea class="inp" rows="3" placeholder="Tuliskan catatan jika ada temuan..." style="resize:none;" oninput="S.catatan=this.value;">${S.catatan}</textarea>
+          </div>
+          <div class="card" style="padding:14px;margin-bottom:12px;border:1.5px solid #ede9fe;">
+            <div style="background:#f5f3ff;margin:-14px -14px 12px;padding:10px 14px;border-radius:8px 8px 0 0;display:flex;align-items:center;gap:8px;">
+              <span style="font-size:18px;">&#128297;</span>
+              <div>
+                <div style="font-weight:700;font-size:13px;color:#7c3aed;">PEMERIKSAAN MINGGUAN</div>
+                <div style="font-size:10px;color:#94a3b8;">Isi jika mekanik melakukan pemeriksaan hari ini. Kosongkan jika tidak dilakukan.</div>
+              </div>
+            </div>
+            <div style="margin-bottom:12px;">
+              <div class="lbl" style="margin-bottom:6px;">&#128297; Torque Mur Roda</div>
+              <div style="display:flex;gap:6px;">
+                <button onclick="S.weekly.torque='OK';render();" style="flex:1;padding:10px 4px;border:1.5px solid ${S.weekly.torque==='OK'?'#7c3aed':'#e2e8f0'};background:${S.weekly.torque==='OK'?'#ede9fe':'#fff'};color:${S.weekly.torque==='OK'?'#7c3aed':'#64748b'};border-radius:8px;font-family:inherit;font-weight:700;font-size:12px;cursor:pointer;">OK</button>
+                <button onclick="S.weekly.torque='NOK';render();" style="flex:1;padding:10px 4px;border:1.5px solid ${S.weekly.torque==='NOK'?'#7c3aed':'#e2e8f0'};background:${S.weekly.torque==='NOK'?'#ede9fe':'#fff'};color:${S.weekly.torque==='NOK'?'#7c3aed':'#64748b'};border-radius:8px;font-family:inherit;font-weight:700;font-size:12px;cursor:pointer;">NOK</button>
+                <button onclick="S.weekly.torque='Lewati';render();" style="flex:1;padding:10px 4px;border:1.5px solid ${S.weekly.torque==='Lewati'?'#7c3aed':'#e2e8f0'};background:${S.weekly.torque==='Lewati'?'#ede9fe':'#fff'};color:${S.weekly.torque==='Lewati'?'#7c3aed':'#64748b'};border-radius:8px;font-family:inherit;font-weight:700;font-size:12px;cursor:pointer;">Lewati</button>
+              </div>
+            </div>
+            <div style="margin-bottom:12px;">
+              <div class="lbl" style="margin-bottom:6px;">&#128738; Oli Tandem / Final Drive</div>
+              <div style="display:flex;gap:6px;">
+                <button onclick="S.weekly.oli='OK';render();" style="flex:1;padding:10px 4px;border:1.5px solid ${S.weekly.oli==='OK'?'#7c3aed':'#e2e8f0'};background:${S.weekly.oli==='OK'?'#ede9fe':'#fff'};color:${S.weekly.oli==='OK'?'#7c3aed':'#64748b'};border-radius:8px;font-family:inherit;font-weight:700;font-size:12px;cursor:pointer;">OK</button>
+                <button onclick="S.weekly.oli='NOK';render();" style="flex:1;padding:10px 4px;border:1.5px solid ${S.weekly.oli==='NOK'?'#7c3aed':'#e2e8f0'};background:${S.weekly.oli==='NOK'?'#ede9fe':'#fff'};color:${S.weekly.oli==='NOK'?'#7c3aed':'#64748b'};border-radius:8px;font-family:inherit;font-weight:700;font-size:12px;cursor:pointer;">NOK</button>
+                <button onclick="S.weekly.oli='N/A';render();" style="flex:1;padding:10px 4px;border:1.5px solid ${S.weekly.oli==='N/A'?'#7c3aed':'#e2e8f0'};background:${S.weekly.oli==='N/A'?'#ede9fe':'#fff'};color:${S.weekly.oli==='N/A'?'#7c3aed':'#64748b'};border-radius:8px;font-family:inherit;font-weight:700;font-size:12px;cursor:pointer;">N/A</button>
+              </div>
+            </div>
+            <div style="margin-bottom:12px;">
+              <div class="lbl" style="margin-bottom:6px;">&#128295; Nama Mekanik</div>
+              <input class="inp" type="text" placeholder="Nama mekanik yang melakukan pemeriksaan" value="${S.weekly.mekanik}" oninput="S.weekly.mekanik=this.value;"/>
+            </div>
+            <div>
+              <div class="lbl" style="margin-bottom:6px;">&#128221; Catatan Mekanik (opsional)</div>
+              <input class="inp" type="text" placeholder="Catatan hasil pemeriksaan mingguan" value="${S.weekly.note}" oninput="S.weekly.note=this.value;"/>
+            </div>
+          </div>
+          <div style="display:flex;gap:8px;">
+            <button class="btn-o" style="flex:0.4;" onclick="S.step--;render();">← Kembali</button>
+            <button class="btn-g" style="flex:1;background:${gs==="BAIK"?"#16a34a":"#dc2626"};" ${S.saving?"disabled":""} onclick="submitRecord();">
+              ${S.saving
+                ?'<span style="display:inline-block;width:16px;height:16px;border:2px solid rgba(255,255,255,0.4);border-top-color:#fff;border-radius:50%;animation:spin 0.8s linear infinite;vertical-align:middle;margin-right:6px;"></span>Menyimpan...'
+                :'💾 Simpan ke Google Sheets'}
+            </button>
+          </div>`;
+      }
+      C=fb;
+    }
+  }
+
+  if(typeof updateNetStatus === 'function') setTimeout(updateNetStatus, 150);
+  // ── RENDER SUMMARY TAB ──
+  let sumContent = "";
+  if(S.tab==="summary"){
+    const f=S.sum.data.filter(r=>S.sum.filter==="ALL"||r.status===S.sum.filter);
+    const total=S.sum.data.length;
+    const baik=S.sum.data.filter(r=>r.status==="BAIK").length;
+    const rusak=S.sum.data.filter(r=>r.status==="RUSAK").length;
+    const pct=total>0?Math.round((baik/total)*100):0;
+    const icons={DT:"🚛",LV:"🚙",TRACTOR:"🚜",GRADER:"🛣️",BACKHOE:"🏗️",WL:"🟡",VR:"🛞",SSL:"🟠",TH:"🟤",BUS:"🚌"};
+
+    let cards="";
+    if(S.sum.loading){
+      cards='<div style="padding:40px;text-align:center;"><div class="spinner"></div><div style="margin-top:12px;font-size:13px;color:#94a3b8;">Memuat data...</div></div>';
+    } else if(!S.sum.loaded){
+      cards='<div style="text-align:center;padding:40px 0;color:#94a3b8;"><div style="font-size:48px;">📅</div><div style="margin-top:10px;font-weight:700;color:#475569;">Pilih tanggal & klik Cari</div></div>';
+    } else if(f.length===0){
+      cards='<div style="text-align:center;padding:40px 0;color:#94a3b8;"><div style="font-size:48px;">📭</div><div style="margin-top:10px;font-weight:700;color:#475569;">Tidak ada data</div></div>';
+    } else {
+      cards=f.map(r=>`
+        <div class="card" style="padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
+            <div>
+              <div style="font-weight:800;font-size:16px;">${icons[r.vt]||"🚗"} ${r.noPol}</div>
+              <div style="font-size:12px;color:#64748b;margin-top:2px;">👤 ${r.operator}</div>
+            </div>
+            <span class="${r.status==="BAIK"?"b-baik":"b-rusak"}">${r.status}</span>
+          </div>
+          <div style="background:#f0fdf4;border:1.5px solid #bbf7d0;border-radius:8px;padding:10px 14px;margin-bottom:10px;display:flex;align-items:center;gap:10px;">
+            <span style="font-size:24px;">⏱️</span>
+            <div>
+              <div style="font-size:10px;color:#64748b;font-weight:600;text-transform:uppercase;">HM / KM</div>
+              <div style="font-size:22px;font-weight:800;color:#0f172a;line-height:1.2;">${r.hmKm||"-"}</div>
+            </div>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;font-size:12px;color:#64748b;">
+            <div>🏢 ${r.ou||"-"}</div>
+            <div>📅 ${r.hariTgl||"-"}</div>
+          </div>
+        </div>`).join("");
+      cards+='<button onclick="shareWA()" style="background:#25d366;color:#fff;border:none;padding:14px;font-family:inherit;font-weight:700;font-size:15px;border-radius:10px;cursor:pointer;width:100%;display:flex;align-items:center;justify-content:center;gap:8px;">💬 Share ke WhatsApp</button>';
+    }
+
+    sumContent=`
+      ${S.sum.loaded&&total>0?`
+      <div style="display:flex;gap:8px;margin-bottom:12px;">
+        <div style="flex:1;background:#fff;border-radius:10px;padding:12px 6px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,0.07);">
+          <div style="font-weight:800;font-size:22px;color:#1e293b;">${total}</div>
+          <div style="font-size:9px;color:#64748b;font-weight:700;margin-top:2px;">TOTAL</div>
+        </div>
+        <div style="flex:1;background:#fff;border-radius:10px;padding:12px 6px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,0.07);">
+          <div style="font-weight:800;font-size:22px;color:#16a34a;">${baik}</div>
+          <div style="font-size:9px;color:#64748b;font-weight:700;margin-top:2px;">BAIK</div>
+        </div>
+        <div style="flex:1;background:#fff;border-radius:10px;padding:12px 6px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,0.07);">
+          <div style="font-weight:800;font-size:22px;color:#dc2626;">${rusak}</div>
+          <div style="font-size:9px;color:#64748b;font-weight:700;margin-top:2px;">TEMUAN</div>
+        </div>
+        <div style="flex:1;background:#fff;border-radius:10px;padding:12px 6px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,0.07);">
+          <div style="font-weight:800;font-size:22px;color:#1e293b;">${pct}%</div>
+          <div style="font-size:9px;color:#64748b;font-weight:700;margin-top:2px;">OK</div>
+        </div>
+      </div>`:""}
+      <div class="card" style="padding:12px;margin-bottom:12px;">
+        <div style="display:flex;gap:8px;align-items:center;${S.sum.loaded&&total>0?"margin-bottom:10px;":""}">
+          <input class="inp" type="date" value="${S.sum.tanggal}" style="flex:1;" oninput="S.sum.tanggal=this.value;S.sum.loaded=false;S.sum.data=[];render();"/>
+          <button class="btn-g" style="width:auto;padding:11px 16px;flex-shrink:0;" onclick="loadSummary()">🔍 Cari</button>
+        </div>
+        ${S.sum.loaded&&total>0?`
+        <div style="display:flex;gap:6px;">
+          ${[["ALL","Semua"],["BAIK","✅ Baik"],["RUSAK","⚠️ Temuan"]].map(([k,l])=>`
+            <button onclick="S.sum.filter='${k}';render();" style="flex:1;padding:7px 4px;border:1.5px solid ${S.sum.filter===k?"#16a34a":"#e2e8f0"};background:${S.sum.filter===k?"#f0fdf4":"#fff"};color:${S.sum.filter===k?"#16a34a":"#64748b"};border-radius:8px;font-family:inherit;font-weight:600;font-size:12px;cursor:pointer;">${l}</button>`).join("")}
+        </div>`:""}
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;">${cards}</div>`;
+  }
+
+  document.getElementById("app").innerHTML=`
+    <div style="background:#16a34a;padding:16px 16px 0;color:#fff;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+        <div style="background:rgba(255,255,255,0.2);width:38px;height:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:20px;">📋</div>
+        <div>
+          <div style="font-weight:800;font-size:17px;letter-spacing:-0.3px;">DAILY INSPECTION</div>
+          <div style="font-size:11px;opacity:0.9;line-height:1.6;">Lima menit inspeksi bisa menyelamatkan nyawa<br/>Operator hebat tidak hanya mengemudi, tapi memastikan unitnya layak jalan</div>
+
+        </div>
+      </div>
+      <div style="padding:3px 0 8px;text-align:center;">
+      <span id="netStatus" style="font-size:10px;font-weight:600;opacity:0.9;"></span>
+    </div>
+    <div style="background:#fff;border-radius:8px 8px 0 0;">
+        <button class="tab-btn ${S.tab==="form"?"on":""}" onclick="S.tab='form';render();" style="border-radius:8px 0 0 0;">📋 Form</button>
+      </div>
+    </div>
+    <div style="padding:14px 14px 100px;">${S.tab==="summary"?sumContent:C}</div>`;
+}
+
+// Update network status indicator
+function updateNetStatus(){
+  const el=document.getElementById("netStatus");
+  if(!el) return;
+  if(navigator.onLine){
+    const q=getQueue();
+    el.textContent = q.length > 0 ? "🌐 Online · ⏳ "+q.length+" data belum tersync" : "🌐 Online";
+    el.style.color = q.length > 0 ? "#fef08a" : "#bbf7d0";
+  } else {
+    const q=getQueue();
+    el.textContent = q.length > 0 ? "📵 Offline · ⏳ "+q.length+" data tersimpan lokal" : "📵 Offline — data akan tersimpan lokal";
+    el.style.color="#fef08a";
+  }
+  // Update queue info in done screen
+  const qi=document.getElementById("queueInfo");
+  if(qi){
+    const q=getQueue();
+    if(q.length>0){
+      qi.innerHTML='<div style="background:#fef3c7;border:1px solid #f59e0b;border-radius:8px;padding:10px 14px;margin-bottom:14px;font-size:12px;color:#92400e;"><strong>⏳ '+q.length+' data menunggu sinkronisasi</strong><br/>Akan dikirim otomatis saat sinyal tersedia.<br/><button onclick="syncQueue()" style="margin-top:6px;background:#f59e0b;color:#fff;border:none;padding:6px 14px;border-radius:6px;font-weight:700;font-size:12px;cursor:pointer;">Sync Sekarang</button></div>';
+    } else {
+      qi.innerHTML="";
+    }
+  }
+}
+window.addEventListener("online", updateNetStatus);
+window.addEventListener("offline", updateNetStatus);
+
+loadOU();render();
+// Try sync on startup
+setTimeout(()=>{if(navigator.onLine)syncQueue();},2000);
+</script>
+</body>
+</html>
